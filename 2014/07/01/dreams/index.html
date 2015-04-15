@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="a UX Designer looking for another challenge">
 
-    <title>Hi! I'm Eduardo</title>
+    <title>Wireshark - Network protocol analyzer - Hi! I'm Eduardo</title>
 
-    <link rel="canonical" href="http://eduardomarin.github.io//">
+    <link rel="canonical" href="http://eduardomarin.github.io//2014/07/01/dreams/">
 
 
 
@@ -80,104 +80,75 @@
 </nav>
 
 
-    <!-- Page Header -->
-<header class="intro-header" style="background-image: url('//img/home-bg-2.jpg')">
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('//img/background-wire.png')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Hi! I'm Eduardo</h1>
-                    <hr class="small">
-                    <span class="subheading">A UX/UI designer based in New York City</span>
-                    <span class="subheading-2">CURRENTLY AVAILABLE FOR HIRE </span>
+                <div class="post-heading">
+                    <h1>Wireshark - Network protocol analyzer</h1>
+                    
+                    <h2 class="subheading">Redesigning an OSX application</h2>
+                    
+                   <span class="meta">Role: UX/UI Designer </span>   
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			
-<div class="post-preview">
-    <a href="//looken">
-        <h2 class="post-title">            Looken
-        </h2>
-        
-        <h3 class="post-subtitle">
-            Responsive single page app
-        </h3>
-        
-    </a>
-    <p class="post-meta">Role : UX Designer & Front-end Developer <!--on September 24, 2014--></p>
-</div>
-<hr>
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-<div class="post-preview">
-    <a href="//lpd">
-        <h2 class="post-title">            Low Price Domains
-        </h2>
-        
-        <h3 class="post-subtitle">
-            Redesigning a Domains Website
-        </h3>
-        
-    </a>
-    <p class="post-meta">Role : UX/UI Designer & Developer <!--on September 18, 2014--></p>
-</div>
-<hr>
+				<p>Wireshark is a great, free open-source packet analyzer used for network troubleshooting, analysis, software and communications protocol development, and education. I first came across Wireshark in college while taking a networking course. In the beginning, while I was still learning the ins and outs of the tool, I found myself stuck performing the same tasks each time. I thought there had to be more to it; its intended use, I thought, had to be more than just scanning and randomly following TCP streams. That’s when I started reading its documentation and found how the GUI came to be and why Wireshark was not simply another command line packet sniffer like tcpdump. I understood the main focus wasn’t its user interface, but the powerful functionality packed into it. However if the tool was meant for education, I thought some things needed to be changed to enable to user with an easier, more accessible tools.</p>
 
-<div class="post-preview">
-    <a href="//2014/07/08/failure-is-not-an-option/">
-        <h2 class="post-title">            Dramafever
-        </h2>
-        
-        <h3 class="post-subtitle">
-            Redesigning an iPad application <br>(Personal Project)
-        </h3>
-        
-    </a>
-    <p class="post-meta">Role : UX/UI Designer <!--on July 8, 2014--></p>
-</div>
-<hr>
+<h2 class="section-heading">Ready to Scan</h2>
 
-<div class="post-preview">
-    <a href="//2014/07/01/dreams/">
-        <h2 class="post-title">            Wireshark - Network protocol analyzer
-        </h2>
-        
-        <h3 class="post-subtitle">
-            Redesigning an OSX application
-        </h3>
-        
-    </a>
-    <p class="post-meta">Role : UX/UI Designer <!--on July 1, 2014--></p>
-</div>
-<hr>
+<p>One of the first things I felt needed to be modified was Wireshark’s dependency on its documentation to perform simple tasks. A three-column design, for instance, created a somewhat cluttered/confusing interface that obscured the starting objective – performing a scan. </p>
 
-<div class="post-preview">
-    <a href="//2014/06/10/dinosaurs/">
-        <h2 class="post-title">            Wynn Landing Page
-        </h2>
-        
-        <h3 class="post-subtitle">
-            Redesigning a room availability search box
-        </h3>
-        
-    </a>
-    <p class="post-meta">Role : UI Designer <!--on June 10, 2014--></p>
-</div>
-<hr>
+<p>I opted for a dropdown instead that automatically selects the most active interface as default, and a call-to-action button that proceeds with the scan. Nonetheless, a savvier user could perform more detailed scans by simply selecting the advanced scan option.</p>
+
+<h2 class="section-heading">Visual Organization (Less is More)</h2>
+<p>Organizing the interface to follow a more logical structure seemed to be the top priority. After all, having 4 sections in one screen was confusing and impractical as one could not concentrate on either one of them. I focused on the packet capture and got rid of 2 sections. I also incorporated a left panel with some useful tools -- extracted from the top -- used to find and filter packets. </p>
+
+<h2 class="section-heading">Intelligent Search and Filtering</h2>
+<p>I believe search is a way to discover the capabilities of an app. Creating an experience around it is, then, just as important as redesigning the entire front-end composition. </p>
+
+<p>The search field was used as way to filter packets through prebuilt expressions (i.e. “atn-cm contains 12” or simply “dns”). I opted for a friendlier approach to search, which could be accessed from either the left panel or from the search box. If for example I wanted to filter out all the  ‘HTTP’ and ‘DNS’ packets, I’d simply go on the left panel click on the “add sign” and proceed to adding protocol filters which could later be easily removed. </p>
+
+<h2 class="section-heading">Packet Isolation</h2>
+
+<p>As mentioned before, the old interface was initially composed of 4 sections; the two bottom ones expressed a selected packet’s content. When I removed these two sections I visualized a more targeted packet analysis, which for now comes in the form of tabs. </p>
+
+<h2 class="section-heading">Conclusion</h2>
+
+<p>Wireshark is a personal project I’m still working on. While it may not be feasible to make all of these changes, I think it’s worth shedding light on possible updates with </p>
 
 
-<!-- Pager -->
 
+                <hr>
 
-		</div>
-	</div>
-</div>
+                <ul class="pager">
+                    
+                      <li class="next">
+                        <a href="/2014/06/10/dinosaurs/" data-toggle="tooltip" data-placement="top" title="Wynn Landing Page">Next Project &rarr;</a>
+                    </li>
+                   
+                    
+                    
+                    <li class="previous">
+                        <a href="/2014/07/08/failure-is-not-an-option/" data-toggle="tooltip" data-placement="top" title="Dramafever">&larr; Previous Project</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
 
 <hr>
 
