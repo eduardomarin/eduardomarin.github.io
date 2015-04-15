@@ -3,10 +3,10 @@
   <channel>
     <title>Hi! I&#39;m Eduardo</title>
     <description>a UX Designer looking for another challenge</description>
-    <link>http://eduardomarin.github.io//</link>
-    <atom:link href="http://eduardomarin.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 15 Apr 2015 04:09:50 -0400</pubDate>
-    <lastBuildDate>Wed, 15 Apr 2015 04:09:50 -0400</lastBuildDate>
+    <link>http://eduardomarin.github.io/</link>
+    <atom:link href="http://eduardomarin.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 15 Apr 2015 04:20:22 -0400</pubDate>
+    <lastBuildDate>Wed, 15 Apr 2015 04:20:22 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -18,28 +18,28 @@
 &lt;h2 class=&quot;section-heading&quot;&gt;Defining location&lt;/h2&gt;
 &lt;p&gt;Knowing the user’s location is crucial in populating the site with relevant deals. The challenge, in this case, was elaborating a seamless process to capture a user’s exact location, given that the phone’s GPS for some reason failed to acquire this data. I went through some user flows and ended up with the following wireframes.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;//img/looken/location1.png&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;//img/looken/location1.png&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/looken/location1.png&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/looken/location1.png&quot; /&gt;
 &lt;/a&gt;
 &lt;span class=&quot;caption text-muted&quot;&gt;We never reached the point where we worried about the smallest details. But I always envisioned things in different ways.&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;//img/looken/location2.png&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;//img/looken/location2.png&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/looken/location2.png&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/looken/location2.png&quot; /&gt;
 &lt;/a&gt;
 &lt;span class=&quot;caption text-muted&quot;&gt;We never reached the point where we worried about the smallest details. But I always envisioned things in different ways.&lt;/span&gt;&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Wireframing Deals&lt;/h2&gt;
 &lt;p&gt;While I believe a good visual composition is pleasing to the eye and can win over users, I also strongly believe there is far more significance in a useful interface than there is in a pretty one. While at Looken, I managed to wireframe various ‘finds’ (or deals), mobile being the focus most of the time. &lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;//img/looken/deals1.png&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;//img/looken/deals1.png&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/looken/deals1.png&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/looken/deals1.png&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 class=&quot;section-heading&quot;&gt;Prototyping using Bootstrap&lt;/h3&gt;
 &lt;p&gt;A month into the job, I was asked to make some prototypes. I used the bootstrap framework as requested by my team. A few weeks later, I was learning different JS frameworks to help with the production code. &lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;//img/looken/prototype-deal.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;//img/looken/prototype-deal.jpg&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/looken/prototype-deal.jpg&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/looken/prototype-deal.jpg&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Focusing on Search&lt;/h2&gt;
@@ -51,7 +51,7 @@
 &lt;h2 class=&quot;section-heading&quot;&gt;How I envisioned it...&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;//img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
+    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;We never reached the point where we worried about the smallest details. But I always envisioned things in different ways.&lt;/span&gt;&lt;/p&gt;
@@ -61,8 +61,8 @@
 &lt;p&gt;As a designer I saw potential in this startup. I knew it’d be a huge project to work on, for the magnitude of things involved. Ironically, the biggest problem lied in the amount of things to be designed and implemented [by a single person], as well as our inability to push updates on time. I worked in a team of 5 people where I was the only designer. This meant I was in charge of creating wireframes and graphic work for every part of the site. Somewhere along the line, I found myself more involved in front-end development than user experience, and this I felt was counterproductive for both the startup and myself. My stay in the startup was short-lived however the things I learned are invaluable.  &lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Sep 2014 08:00:00 -0400</pubDate>
-        <link>http://eduardomarin.github.io//looken</link>
-        <guid isPermaLink="true">http://eduardomarin.github.io//looken</guid>
+        <link>http://eduardomarin.github.io/looken</link>
+        <guid isPermaLink="true">http://eduardomarin.github.io/looken</guid>
         
         
       </item>
@@ -77,8 +77,8 @@
 
 &lt;p&gt;I opted for a flat UI. This I felt would allow me to concentrate on thinning out the main navigation and make each page more understandable. I worked on the navigation hierarchy as I concluded that having a three-row navigation was too confusing. Logging in before would take the user to a subdomain, which proved to be somewhat confusing after a few tries. I decided to have a modal to log in and avoid going into the subdomain until the user is ready to check out.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;//img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;//img/contact-bg.jpg&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/contact-bg.jpg&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Jumping right to Search&lt;/h2&gt;
@@ -86,14 +86,14 @@
 &lt;p&gt;This is self-explanatory. LPD offers SSL certificates but its main selling items are domain names. Having therefore a domain search box right on the home page is more practical consequently more beneficial for both the user and LPD.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;//img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
+    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
 &lt;/a&gt;
 &lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Personas&lt;/h2&gt;
 &lt;p&gt;With some research I found there are a few kinds of domain buyers, but the following two are the most prevalent. &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;//img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;//img/contact-bg.jpg&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/contact-bg.jpg&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Creating provisional personas is important in my design process as it helps me better understand who I’m designing for. 
@@ -105,8 +105,8 @@
 
 </description>
         <pubDate>Thu, 18 Sep 2014 08:00:00 -0400</pubDate>
-        <link>http://eduardomarin.github.io//lpd</link>
-        <guid isPermaLink="true">http://eduardomarin.github.io//lpd</guid>
+        <link>http://eduardomarin.github.io/lpd</link>
+        <guid isPermaLink="true">http://eduardomarin.github.io/lpd</guid>
         
         
       </item>
@@ -118,8 +118,8 @@
 &lt;h2 class=&quot;section-heading&quot;&gt;Resuming Videos to Resume Experience&lt;/h2&gt;
 &lt;p&gt;With constant crashes – which should not occur at all – the least I expect is some kind of help to get me back to where I was. For instance, Youtube automatically resumes a video if by any chance the browser crashes in the middle of a video. &lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;//img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;//img/contact-bg.jpg&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/contact-bg.jpg&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;While Dramafever made some efforts to include a way to get back to a video, the user interface didn’t help sign. My approach to this problem was to simply make &lt;/p&gt;
@@ -128,8 +128,8 @@
 
 &lt;p&gt;Although I understand the motive behind a pop up reminding me every time I log into the app that I can turn off advertisement by paying a monthly fee, I still find this redundancy unnecessary. With that in mind, I decided to approach this problem with a less aggressive solution.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;//img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;//img/contact-bg.jpg&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/contact-bg.jpg&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;A button suggesting to “Turn off ads” is a bit more provocative and inviting in my opinion. This button is ubiquitous throughout the app and it serves as a constant reminder unlike a pop up that appears just once during a session. &lt;/p&gt;
@@ -139,7 +139,7 @@
 &lt;p&gt;While attempting to transfer an equally enjoyable user experience to mobile devices, Dramafever neglected some differences between web and mobile interfaces. Shrinking an interface, I mean, to fit a web-based layout into a mobile device does not assure the same experience.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;//img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
+    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
 &lt;/a&gt;
 &lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
 
@@ -150,8 +150,8 @@
 
 </description>
         <pubDate>Tue, 08 Jul 2014 08:00:00 -0400</pubDate>
-        <link>http://eduardomarin.github.io//2014/07/08/failure-is-not-an-option/</link>
-        <guid isPermaLink="true">http://eduardomarin.github.io//2014/07/08/failure-is-not-an-option/</guid>
+        <link>http://eduardomarin.github.io/2014/07/08/failure-is-not-an-option/</link>
+        <guid isPermaLink="true">http://eduardomarin.github.io/2014/07/08/failure-is-not-an-option/</guid>
         
         
       </item>
@@ -184,8 +184,8 @@
 
 </description>
         <pubDate>Tue, 01 Jul 2014 08:00:00 -0400</pubDate>
-        <link>http://eduardomarin.github.io//2014/07/01/dreams/</link>
-        <guid isPermaLink="true">http://eduardomarin.github.io//2014/07/01/dreams/</guid>
+        <link>http://eduardomarin.github.io/2014/07/01/dreams/</link>
+        <guid isPermaLink="true">http://eduardomarin.github.io/2014/07/01/dreams/</guid>
         
         
       </item>
@@ -198,15 +198,15 @@
 
 &lt;p&gt;Instead of keeping a hideous tool with all of its fields in all pages, I decided to make a button that serves the same purpose but effectively reduces the space consumed by the latter.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;//img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;//img/contact-bg.jpg&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/contact-bg.jpg&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Focus on what you are known for&lt;/h2&gt;
 &lt;p&gt;The Wynn has incredible things to offer, ranging from nightclubs to shows to spas. The difference, I thought, must be made through simplicity in the UI highlighting the great things the Wynn has to offer. It’s not enough to see a picture of the casino and some music in the background. Enhancing what the user wants to see creates a greater experience.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;//img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;//img/contact-bg.jpg&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/contact-bg.jpg&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Conclusion&lt;/h2&gt;
@@ -214,8 +214,8 @@
 
 </description>
         <pubDate>Tue, 10 Jun 2014 08:00:00 -0400</pubDate>
-        <link>http://eduardomarin.github.io//2014/06/10/dinosaurs/</link>
-        <guid isPermaLink="true">http://eduardomarin.github.io//2014/06/10/dinosaurs/</guid>
+        <link>http://eduardomarin.github.io/2014/06/10/dinosaurs/</link>
+        <guid isPermaLink="true">http://eduardomarin.github.io/2014/06/10/dinosaurs/</guid>
         
         
       </item>
