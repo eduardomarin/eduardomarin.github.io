@@ -5,8 +5,8 @@
     <description>a UX Designer looking for another challenge</description>
     <link>http://eduardomarin.github.io/</link>
     <atom:link href="http://eduardomarin.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Apr 2015 12:24:06 -0400</pubDate>
-    <lastBuildDate>Thu, 16 Apr 2015 12:24:06 -0400</lastBuildDate>
+    <pubDate>Thu, 16 Apr 2015 19:01:40 -0400</pubDate>
+    <lastBuildDate>Thu, 16 Apr 2015 19:01:40 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -42,16 +42,12 @@
   &lt;img src=&quot;/img/looken/prototype-deal.jpg&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Focusing on Search&lt;/h2&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;Where to focus&lt;/h2&gt;
 
 &lt;p&gt;There were three main components to the application: search, commerce and some lingering social features. I chose to concentrate on search for some time, as I believed this was critical in differencing ourselves from similar platforms. I began analyzing Kayak, Priceline, Cheaptickets and others, as they were doing similar things with different elements. I inferred we needed a superior search user experience to be able to create utility and consequently gain some traction. &lt;/p&gt;
 
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;How I envisioned it...&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/looken/looken-last.png&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/looken/looken-last.png&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;We never reached the point where we worried about the smallest details. But I always envisioned things in different ways.&lt;/span&gt;&lt;/p&gt;
@@ -100,8 +96,8 @@
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Personas&lt;/h2&gt;
 &lt;p&gt;With some research I found there are a few kinds of domain buyers, but the following two are the most prevalent. &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/contact-bg.jpg&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/personas-lpd.png&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/personas-lpd.png&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Creating provisional personas is important in my design process as it helps me better understand who I’m designing for. 
@@ -149,8 +145,8 @@
 
 &lt;p&gt;While attempting to transfer an equally enjoyable user experience to mobile devices, Dramafever neglected some differences between web and mobile interfaces. Shrinking an interface, I mean, to fit a web-based layout into a mobile device does not assure the same experience.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/df-space.png&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/df-space.png&quot; /&gt;
 &lt;/a&gt;
 &lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
 
@@ -200,6 +196,10 @@
 &lt;h2 class=&quot;section-heading&quot;&gt;Packet Isolation&lt;/h2&gt;
 
 &lt;p&gt;As mentioned before, the old interface was initially composed of 4 sections; the two bottom ones expressed a selected packet’s content. When I removed these two sections I visualized a more targeted packet analysis, which for now comes in the form of tabs. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/wireshark-inspection.png&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/wireshark-inspection.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Conclusion&lt;/h2&gt;
 
