@@ -5,8 +5,8 @@
     <description>a UX Designer looking for another challenge</description>
     <link>http://eduardomarin.github.io/</link>
     <atom:link href="http://eduardomarin.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 15 Apr 2015 04:42:13 -0400</pubDate>
-    <lastBuildDate>Wed, 15 Apr 2015 04:42:13 -0400</lastBuildDate>
+    <pubDate>Thu, 16 Apr 2015 12:24:06 -0400</pubDate>
+    <lastBuildDate>Thu, 16 Apr 2015 12:24:06 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -77,18 +77,26 @@
 
 &lt;p&gt;I opted for a flat UI. This I felt would allow me to concentrate on thinning out the main navigation and make each page more understandable. I worked on the navigation hierarchy as I concluded that having a three-row navigation was too confusing. Logging in before would take the user to a subdomain, which proved to be somewhat confusing after a few tries. I decided to have a modal to log in and avoid going into the subdomain until the user is ready to check out.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/contact-bg.jpg&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/post-it.jpg&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/post-it.jpg&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/nav-lpd.png&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/nav-lpd.png&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/img/lpd-cert.png&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/lpd-cert.png&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Jumping right to Search&lt;/h2&gt;
 
 &lt;p&gt;This is self-explanatory. LPD offers SSL certificates but its main selling items are domain names. Having therefore a domain search box right on the home page is more practical consequently more beneficial for both the user and LPD.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+  &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/JiXwxxL84Bg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Personas&lt;/h2&gt;
 &lt;p&gt;With some research I found there are a few kinds of domain buyers, but the following two are the most prevalent. &lt;/p&gt;
@@ -103,6 +111,9 @@
 
 &lt;p&gt;For now LPD uses WHMCS as its prime domain search engine. I worked though on a separate project that would allow for gtlds as well as domain name suggestion to take place right on the search engine. This project required the integration of APIs, a lot more front-end work and perhaps cutting out WHMCS altogether to use a more compatible cart. These are not design challenges, but they did halt the production of this site.  &lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;/img/domain-search-lpd.png&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/domain-search-lpd.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Sep 2014 08:00:00 -0400</pubDate>
         <link>http://eduardomarin.github.io/lpd</link>
@@ -118,8 +129,8 @@
 &lt;h2 class=&quot;section-heading&quot;&gt;Resuming Videos to Resume Experience&lt;/h2&gt;
 &lt;p&gt;With constant crashes – which should not occur at all – the least I expect is some kind of help to get me back to where I was. For instance, Youtube automatically resumes a video if by any chance the browser crashes in the middle of a video. &lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/contact-bg.jpg&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/df-y1.jpg&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/df-y1.jpg&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;While Dramafever made some efforts to include a way to get back to a video, the user interface didn’t help sign. My approach to this problem was to simply make &lt;/p&gt;
@@ -128,8 +139,8 @@
 
 &lt;p&gt;Although I understand the motive behind a pop up reminding me every time I log into the app that I can turn off advertisement by paying a monthly fee, I still find this redundancy unnecessary. With that in mind, I decided to approach this problem with a less aggressive solution.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/contact-bg.jpg&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/un-drama.jpg&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/un-drama.jpg&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;A button suggesting to “Turn off ads” is a bit more provocative and inviting in my opinion. This button is ubiquitous throughout the app and it serves as a constant reminder unlike a pop up that appears just once during a session. &lt;/p&gt;
@@ -146,7 +157,7 @@
 &lt;p&gt;Most of the work I did here were ‘aesthetic touches.’ There isn’t much space to work with on mobile devices, so maximizing usage of space is critical. I moved things around to highlight what is important (“the latest episode of a show per say”) and made sure navigation was accessible and intuitive by including tabs and a hamburger icon on the top left corner.&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Takeaway&lt;/h2&gt;
-&lt;p&gt;Dramafever was an interesting personal project for its size. The app does not contain every social element included on the web – which is understandable – therefore it must concentrate on the minimal actions performed by the user and procure to create an excellent experience. By redesigning certain aspects of this app, I hope to shed light on the importance of a good UI and attention to small tasks. &lt;/p&gt;
+&lt;p&gt;Dramafever was an interesting personal project for its size. The app does not contain every social element included on the web – which is understandable – therefore it must concentrate on the smallest user interactions to optimize user experinece. By redesigning certain aspects of this app, I hope to accentuate the importance of a good UI and bring attention to small user tasks. &lt;/p&gt;
 
 </description>
         <pubDate>Tue, 08 Jul 2014 08:00:00 -0400</pubDate>
@@ -158,19 +169,31 @@
     
       <item>
         <title>Wireshark - Network protocol analyzer</title>
-        <description>&lt;p&gt;Wireshark is a great, free open-source packet analyzer used for network troubleshooting, analysis, software and communications protocol development, and education. I first came across Wireshark in college while taking a networking course. In the beginning, while I was still learning the ins and outs of the tool, I found myself stuck performing the same tasks each time. I thought there had to be more to it; its intended use, I thought, had to be more than just scanning and randomly following TCP streams. That’s when I started reading its documentation and found how the GUI came to be and why Wireshark was not simply another command line packet sniffer like tcpdump. I understood the main focus wasn’t its user interface, but the powerful functionality packed into it. However if the tool was meant for education, I thought some things needed to be changed to enable to user with an easier, more accessible tools.&lt;/p&gt;
+        <description>&lt;p&gt;Wireshark is a great, free open-source packet analyzer used for network troubleshooting, analysis, software and communications protocol development, and education. I first came across Wireshark in college while taking a networking course. In the beginning, while I was still learning the ins and outs of the tool, I found myself stuck performing the same tasks each time. I thought there had to be more to it; its intended use, I thought, had to be more than just scanning and randomly following TCP streams. That’s when I started reading its documentation and found how the GUI came to be and why Wireshark was not simply another command line packet sniffer like tcpdump. I understood the main focus wasn’t its user interface, but the powerful functionality packed into it. However if the tool was meant for education, some things needed to change to enable to user with easier, more accessible tools.&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Ready to Scan&lt;/h2&gt;
 
 &lt;p&gt;One of the first things I felt needed to be modified was Wireshark’s dependency on its documentation to perform simple tasks. A three-column design, for instance, created a somewhat cluttered/confusing interface that obscured the starting objective – performing a scan. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/wireshark-scan.png&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/wireshark-scan.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I opted for a dropdown instead that automatically selects the most active interface as default, and a call-to-action button that proceeds with the scan. Nonetheless, a savvier user could perform more detailed scans by simply selecting the advanced scan option.&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Visual Organization (Less is More)&lt;/h2&gt;
 &lt;p&gt;Organizing the interface to follow a more logical structure seemed to be the top priority. After all, having 4 sections in one screen was confusing and impractical as one could not concentrate on either one of them. I focused on the packet capture and got rid of 2 sections. I also incorporated a left panel with some useful tools -- extracted from the top -- used to find and filter packets. &lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;/img/wireshark-visual.png&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/wireshark-visual.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 class=&quot;section-heading&quot;&gt;Intelligent Search and Filtering&lt;/h2&gt;
 &lt;p&gt;I believe search is a way to discover the capabilities of an app. Creating an experience around it is, then, just as important as redesigning the entire front-end composition. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/Wireshark-search.png&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/Wireshark-search.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The search field was used as way to filter packets through prebuilt expressions (i.e. “atn-cm contains 12” or simply “dns”). I opted for a friendlier approach to search, which could be accessed from either the left panel or from the search box. If for example I wanted to filter out all the  ‘HTTP’ and ‘DNS’ packets, I’d simply go on the left panel click on the “add sign” and proceed to adding protocol filters which could later be easily removed. &lt;/p&gt;
 
@@ -198,15 +221,19 @@
 
 &lt;p&gt;Instead of keeping a hideous tool with all of its fields in all pages, I decided to make a button that serves the same purpose but effectively reduces the space consumed by the latter.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/contact-bg.jpg&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/wynn1.jpg&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/wynn1.jpg&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Focus on what you are known for&lt;/h2&gt;
 &lt;p&gt;The Wynn has incredible things to offer, ranging from nightclubs to shows to spas. The difference, I thought, must be made through simplicity in the UI highlighting the great things the Wynn has to offer. It’s not enough to see a picture of the casino and some music in the background. Enhancing what the user wants to see creates a greater experience.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/img/contact-bg.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/contact-bg.jpg&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;/img/wynn-3.jpg&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/wynn-3.jpg&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/wynn-2.jpg&quot; data-lighter=&quot;&quot;&gt;
+  &lt;img src=&quot;/img/wynn-2.jpg&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Conclusion&lt;/h2&gt;
