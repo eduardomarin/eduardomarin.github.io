@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="a UX Designer looking for another challenge">
 
-    <title>Dramafever - Hi! I'm Eduardo</title>
+    <title>Wireshark - Network protocol analyzer - Hi! I'm Eduardo</title>
 
-    <link rel="canonical" href="http://eduardomarin.github.io/2014/07/08/failure-is-not-an-option/">
+    <link rel="canonical" href="http://eduardomarin.github.io/wireshark">
 
 
 
@@ -81,14 +81,14 @@
 
 
     <!-- Post Header -->
-<header class="intro-header" style="background-image: url('/img/background-df.png')">
+<header class="intro-header" style="background-image: url('/img/background-wire.png')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>Dramafever</h1>
+                    <h1>Wireshark - Network protocol analyzer</h1>
                     
-                    <h2 class="subheading">Redesigning an iPad application <br>(Personal Project)</h2>
+                    <h2 class="subheading">Redesigning an OSX application</h2>
                     
                    <span class="meta">Role: UX/UI Designer </span>   
                 </div>
@@ -103,40 +103,45 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-				<p>About a year a go, while searching for sites offering foreign shows with subtitles, I came across Dramafever. Navigating the website was easy, practical and above all enjoyable, so I decided to give it a try. A few hours into it, I felt compelled to download the app for my iPad – this is where the problems began. The app was buggy so it’d crash from time to time, leaving me annoyed and dissatisfied with my experience. The interface was also somewhat outdated, and this pop up asking me if I wanted to turn off the ads by paying a monthly fee did not help either. The overall mobile user experience was substantially different than on the web, and this I felt was detrimental. As a user I decided to change a few things to ameliorate this application.</p>
+				<p>Wireshark is a great, free open-source packet analyzer used for network troubleshooting, analysis, software and communications protocol development, and education. I first came across Wireshark in college while taking a networking course. In the beginning, while I was still learning the ins and outs of the tool, I found myself stuck performing the same tasks each time. I thought there had to be more to it; its intended use, I thought, had to be more than just scanning and randomly following TCP streams. That’s when I started reading its documentation and found how the GUI came to be and why Wireshark was not simply another command line packet sniffer like tcpdump. I understood the main focus wasn’t its user interface, but the powerful functionality packed into it. However if the tool was meant for education, some things needed to change to enable the user with easier, more accessible tools.</p>
 
-<h2 class="section-heading">Resuming Videos to Resume Experience</h2>
-<p>With constant crashes – which should not occur at all – the least I expect is some kind of help to get me back to where I was. For instance, Youtube automatically resumes a video if by any chance the browser crashes in the middle of a video. </p>
+<h2 class="section-heading">Ready to Scan</h2>
 
-<p><a href="/img/df-y1.jpg" data-lighter="">
-  <img src="/img/df-y1.jpg" />
+<p>One of the first things I felt needed to be modified was Wireshark’s dependency on its documentation to perform simple tasks. A three-column design, for instance, created a somewhat cluttered/confusing interface that obscured the starting objective – performing a scan. </p>
+
+<p><a href="/img/wireshark-scan.png" data-lighter="">
+  <img src="/img/wireshark-scan.png" />
 </a></p>
 
-<p>While Dramafever made some efforts to include a way to get back to a video, the user interface didn’t help sign. My approach to this problem was to simply make </p>
+<p>I opted for a dropdown instead that automatically selects the most active interface as default, and a call-to-action button that proceeds with the scan. Nonetheless, a savvier user could perform more detailed scans by simply selecting the advanced scan option.</p>
 
-<h2 class="section-heading">Removing the Unnecessary </h2>
+<h2 class="section-heading">Visual Organization (Less is More)</h2>
+<p>Organizing the interface to follow a more logical structure seemed to be the top priority. After all, having 4 sections in one screen was confusing and impractical as one could not concentrate on either one of them. I focused on the packet capture and got rid of 2 sections. I also incorporated a left panel with some useful tools -- extracted from the top -- used to find and filter packets. </p>
 
-<p>Although I understand the motive behind a pop up reminding me every time I log into the app that I can turn off advertisement by paying a monthly fee, I still find this redundancy unnecessary. With that in mind, I decided to approach this problem with a less aggressive solution.</p>
-
-<p><a href="/img/un-drama.jpg" data-lighter="">
-  <img src="/img/un-drama.jpg" />
+<p><a href="/img/wireshark-visual.png" data-lighter="">
+  <img src="/img/wireshark-visual.png" />
 </a></p>
 
-<p>A button suggesting to “Turn off ads” is a bit more provocative and inviting in my opinion. This button is ubiquitous throughout the app and it serves as a constant reminder unlike a pop up that appears just once during a session. </p>
+<h2 class="section-heading">Intelligent Search and Filtering</h2>
+<p>I believe search is a way to discover the capabilities of an app. Creating an experience around it is, then, just as important as redesigning the entire front-end composition. </p>
 
-<h2 class="section-heading">Restructuring a show's page</h2>
+<p><a href="/img/Wireshark-search.png" data-lighter="">
+  <img src="/img/Wireshark-search.png" />
+</a></p>
 
-<p>While attempting to transfer an equally enjoyable user experience to mobile devices, Dramafever neglected some differences between web and mobile interfaces. Shrinking an interface, I mean, to fit a web-based layout into a mobile device does not assure the same experience.</p>
+<p>The search field was used as way to filter packets through prebuilt expressions (i.e. “atn-cm contains 12” or simply “dns”). I opted for a friendlier approach to search, which could be accessed from either the left panel or from the search box. If for example I wanted to filter out all the  ‘HTTP’ and ‘DNS’ packets, I’d simply go on the left panel click on the “add sign” and proceed to adding protocol filters which could later be easily removed. </p>
 
-<p><a href="/img/df-space.png" data-lighter="">
-  <img src="/img/df-space.png" />
-</a>
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span></p>
+<h2 class="section-heading">Packet Isolation</h2>
 
-<p>Most of the work I did here were ‘aesthetic touches.’ There isn’t much space to work with on mobile devices, so maximizing usage of space is critical. I moved things around to highlight what is important (“the latest episode of a show per say”) and made sure navigation was accessible and intuitive by including tabs and a hamburger icon on the top left corner.</p>
+<p>As mentioned before, the old interface was initially composed of 4 sections; the two bottom ones expressed a selected packet’s content. When I removed these two sections I visualized a more targeted packet analysis, which for now comes in the form of tabs. </p>
 
-<h2 class="section-heading">Takeaway</h2>
-<p>Dramafever was an interesting personal project for its size. The app does not contain every social element included on the web – which is understandable – therefore it must concentrate on the smallest user interactions to optimize user experinece. By redesigning certain aspects of this app, I hope to accentuate the importance of a good UI and bring attention to small user tasks. </p>
+<p><a href="/img/wireshark-inspection.png" data-lighter="">
+  <img src="/img/wireshark-inspection.png" />
+</a></p>
+
+<h2 class="section-heading">Conclusion</h2>
+
+<p>Wireshark is a personal project I’m still working on. While it may not be feasible to make all of these changes, I think it’s worth shedding light on possible updates that might make this tool more accessible. </p>
 
 
 
@@ -145,13 +150,13 @@
                 <ul class="pager">
                     
                       <li class="next">
-                        <a href="/2014/07/01/dreams/" data-toggle="tooltip" data-placement="top" title="Wireshark - Network protocol analyzer">Next Project &rarr;</a>
+                        <a href="/wynn" data-toggle="tooltip" data-placement="top" title="Wynn Landing Page">Next Project &rarr;</a>
                     </li>
                    
                     
                     
                     <li class="previous">
-                        <a href="/lpd" data-toggle="tooltip" data-placement="top" title="Low Price Domains">&larr; Previous Project</a>
+                        <a href="/df" data-toggle="tooltip" data-placement="top" title="Dramafever">&larr; Previous Project</a>
                     </li>
                     
                 </ul>
