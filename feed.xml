@@ -1,253 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hi! I&#39;m Eduardo</title>
-    <description>a UX Designer looking for another challenge</description>
-    <link>http://eduardomarin.github.io/</link>
-    <atom:link href="http://eduardomarin.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Apr 2015 23:51:03 -0400</pubDate>
-    <lastBuildDate>Fri, 17 Apr 2015 23:51:03 -0400</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <title>:)</title>
+    <description>I&#39;m Eduardo, a product designer in NYC. Currently at Priceline :)</description>
+    <link>http://yourdomain.com/clean/</link>
+    <atom:link href="http://yourdomain.com/clean/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 18 Nov 2015 23:08:17 -0500</pubDate>
+    <lastBuildDate>Wed, 18 Nov 2015 23:08:17 -0500</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>Looken</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Introduction&lt;/h2&gt;
+        <title>A Clean Jekyll theme</title>
+        <description>&lt;h2 id=&quot;subheading&quot;&gt;Subheading&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at mauris ante. Cras sit amet porta quam. Donec eu gravida elit. Sed a diam eget sem lacinia maximus vel et elit. Nullam id egestas nulla. Duis dapibus at quam eu dapibus. Maecenas ullamcorper placerat eros, eu posuere enim bibendum eget. Phasellus mollis enim molestie tortor aliquam, nec auctor ligula &lt;code class=&quot;highlighter-rouge&quot;&gt;fringilla&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;I had the pleasure of working at Looken, a startup based in Las Vegas, for a little over 4 months. The Looken platform has as its main focus a search engine that accrues multiple online deal providers (Groupon, Travelzoo, Amazon Local, etc) and adds some social elements (follow, like, comment, etc) to engage the user. &lt;/p&gt;
+&lt;h2 id=&quot;sample-code&quot;&gt;Sample Code&lt;/h2&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Defining location&lt;/h2&gt;
-&lt;p&gt;Knowing the user’s location is crucial in populating the site with relevant deals. The challenge, in this case, was elaborating a seamless process to capture a user’s exact location, given that the phone’s GPS for some reason failed to acquire this data. I went through some user flows and ended up with the following wireframes.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-go&quot; data-lang=&quot;go&quot;&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
 
-&lt;p&gt;&lt;a href=&quot;/img/looken/location1.png&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/looken/location1.png&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;First approach was to rely on GPS then if that failed a smart search box appear&lt;/span&gt;&lt;/p&gt;
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;net/http&quot;&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
 
-&lt;p&gt;&lt;a href=&quot;/img/looken/location2.png&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/looken/location2.png&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;Second approach – I went a little more in detail as to find a location without using a phone’s GPS. I highlighted certain “hints” that would allow the user to see if a location was set or not.&lt;/span&gt;&lt;/p&gt;
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rw&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ResponseWriter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rw&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([]&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;byte&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello world.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Wireframing Deals&lt;/h2&gt;
-&lt;p&gt;While I believe a good visual composition is pleasing to the eye and can win over users, I also strongly believe there is far more significance in a useful interface than there is in a pretty one. While at Looken, I managed to wireframe various ‘finds’ (or deals), mobile being the focus most of the time. &lt;/p&gt;
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HandleFunc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ListenAndServe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;:3000&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;a href=&quot;/img/looken/deals1.png&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/looken/deals1.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;list&quot;&gt;List&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Do this&lt;/li&gt;
+  &lt;li&gt;Do that&lt;/li&gt;
+  &lt;li&gt;Bla Bla Bla&lt;/li&gt;
+  &lt;li&gt;Go to Sleep&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h3 class=&quot;section-heading&quot;&gt;Prototyping using Bootstrap&lt;/h3&gt;
-&lt;p&gt;A month into the job, I was asked to make some prototypes. I used the bootstrap framework as requested by my team. A few weeks later, I was learning different JS frameworks to help with the production code. &lt;/p&gt;
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://example.net/&quot;&gt;This link&lt;/a&gt; has no title attribute.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/img/looken/prototype-deal.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/looken/prototype-deal.jpg&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Where to focus&lt;/h2&gt;
-
-&lt;p&gt;There were three main components to the application: search, e-commerce and some lingering social features. Almost at the end of my stay, I began studying and researching similar platforms to find where our focus needed to be. I knew everyone expected to release this behemoth of an app altogether, but as time passed I had grown wary of our app’s utility. While I studied Kayak, Priceline, Cheaptickets and other similar useful platforms, I began obsessing over utility and search as a whole. “Deals, products, events among other things need to be targeted,” I thought. The fact of the matter is we needed something “superior” and ways to test our hypotheses. But sadly, there wasn’t time for that. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/looken/looken-last.png&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/looken/looken-last.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;From time to time, after finishing working on something, I still sketch and prototype certain ways I could have done things better. This is how I envisioned Looken (of course just visually)&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;As a designer I saw potential in this startup. I knew it’d be a huge project to work on, for the magnitude of things involved. Ironically, the biggest problem lied in the amount of things to be designed and implemented [by a single person], as well as our inability to push updates on time. I worked in a team of 5 people where I was the only designer. This meant I was in charge of creating wireframes and graphic work for every part of the site. Somewhere along the line, I found myself more involved in front-end development than user experience, and this I felt was counterproductive for both the startup and myself. My stay in the startup was short-lived however the things I learned are invaluable.  &lt;/p&gt;
 </description>
-        <pubDate>Wed, 24 Sep 2014 08:00:00 -0400</pubDate>
-        <link>http://eduardomarin.github.io/looken</link>
-        <guid isPermaLink="true">http://eduardomarin.github.io/looken</guid>
+        <pubDate>Sat, 26 Sep 2015 14:51:59 -0400</pubDate>
+        <link>http://yourdomain.com/clean/jekyll/update/2015/09/26/clean-theme.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/clean/jekyll/update/2015/09/26/clean-theme.html</guid>
         
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
         
       </item>
     
       <item>
-        <title>Low Price Domains</title>
-        <description>&lt;p&gt;LowPriceDomains (LPD) was outdated like many domain/hosting websites out there. My job was to redesign and subsequently integrate a new version of the site. At first glance the problem was obvious, the website was old and therefore unappealing. &lt;/p&gt;
-
-&lt;p&gt;With many websites offering domain and hosting services “we can only hope to make a difference visually” I thought. However digging a little deeper, I discovered many web and mobile apps focusing entirely on helping users find an ideal domain name. GoDaddy for example built an application dedicated exclusively at finding domain names. All the big domain companies have name suggestion and filtering to some degree, so I figured I should somehow follow that idea in my design. &lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Going Flat&lt;/h2&gt;
-
-&lt;p&gt;I opted for a flat UI. This I felt would allow me to concentrate on thinning out the main navigation and make each page more understandable. I worked on the navigation hierarchy as I concluded that having a three-row navigation was too confusing. Logging in before would take the user to a subdomain, which proved to be somewhat confusing after a few tries. I decided to have a modal to log in and avoid going into the subdomain until the user is ready to check out.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/post-it.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/post-it.jpg&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/nav-lpd.png&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/nav-lpd.png&quot; /&gt;
-&lt;/a&gt;
-&lt;a href=&quot;/img/lpd-cert.png&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/lpd-cert.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Jumping right to Search&lt;/h2&gt;
-
-&lt;p&gt;This is self-explanatory. LPD offers SSL certificates but its main selling items are domain names. Having therefore a domain search box right on the home page is more practical consequently more beneficial for both the user and LPD.&lt;/p&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
-  &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/JiXwxxL84Bg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;This is a very rough prototype of the domain search tool&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Personas&lt;/h2&gt;
-&lt;p&gt;Creating provisional personas is important in my design process as it helps me better understand whom I’m designing for. 
-&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/img/personas-lpd.png&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/personas-lpd.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Domain Search Engine&lt;/h2&gt;
-
-&lt;p&gt;For now LPD uses WHMCS as its prime domain search engine. I worked on a separate project that would allow for gtlds as well as domain name suggestions to take place right on the search engine. This project required the integration of APIs, a lot more front-end work and perhaps cutting out WHMCS altogether to use a more compatible cart. These are not design challenges, but they did halt the production of this site.  &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/domain-search-lpd.png&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/domain-search-lpd.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;Take a look at &lt;a href=&quot;https://lowpricedomains.com/&quot;&gt;lowpricedomains.com&lt;/a&gt; :) &lt;/p&gt;
+        <title>Hello</title>
+        <description>&lt;p&gt;Hello Jekyll&lt;/p&gt;
 </description>
-        <pubDate>Thu, 18 Sep 2014 08:00:00 -0400</pubDate>
-        <link>http://eduardomarin.github.io/lpd</link>
-        <guid isPermaLink="true">http://eduardomarin.github.io/lpd</guid>
+        <pubDate>Sat, 26 Sep 2015 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/clean/jekyll/update/2015/09/26/hello.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/clean/jekyll/update/2015/09/26/hello.html</guid>
         
         
-      </item>
-    
-      <item>
-        <title>Dramafever</title>
-        <description>&lt;p&gt;About a year a go, while searching for sites offering foreign shows with subtitles, I came across Dramafever. Navigating the website was easy, practical and above all enjoyable, so I decided to give it a try. A few hours into it, I felt compelled to download the app for my iPad – this is where the problems began. The app was buggy so it’d crash from time to time, leaving me annoyed and dissatisfied with my experience. The interface was also somewhat outdated, and this pop up asking me if I wanted to turn off the ads by paying a monthly fee did not help either. The overall mobile user experience was substantially different than on the web. As a user I decided to change a few things to ameliorate this application.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Resuming Videos to Resume Experience&lt;/h2&gt;
-&lt;p&gt;With constant crashes – which should not occur at all – the least I expect is some kind of help to get me back to where I was. For instance, Youtube automatically resumes a video if by any chance the browser crashes &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/df-y1.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/df-y1.jpg&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;While Dramafever made some efforts to include a way to get back to a video, the app was still buggy and sometimes it would leave empty the “Continue Watching” section. My approach to this problem was to simply make the video to be resumed larger therefore more notorious and add a cancel button on the top right corner if the user didn’t intend on resuming it. &lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Removing the Unnecessary &lt;/h2&gt;
-
-&lt;p&gt;Although I understand the motive behind a pop up reminding me every time I log into the app that I can turn off advertisement by paying a monthly fee, I still find this redundancy unnecessary. With that in mind, I decided to approach this problem with a less aggressive solution.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/un-drama.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/un-drama.jpg&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A button to “Turn off ads” is a bit more suggestive in my opinion. This button is ubiquitous throughout the app and it serves as a constant reminder unlike a pop up that appears and disappears during a session. &lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Restructuring a show&#39;s page&lt;/h2&gt;
-
-&lt;p&gt;While attempting to transfer an equally enjoyable user experience to mobile devices, Dramafever neglected some differences between web and mobile interfaces. Shrinking an interface, I mean, to fit a web-based layout into a mobile device does not assure the same experience.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/df-space.png&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/df-space.png&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Most of the work I did here were ‘aesthetic touches.’ There isn’t much space to work with on mobile devices, so maximizing usage of space is critical. I moved things around to highlight what is important (“the latest episode of a show per say”) and made sure navigation was accessible and intuitive by including tabs and a hamburger icon on the top left corner.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Takeaway&lt;/h2&gt;
-&lt;p&gt;Dramafever was an interesting personal project for its size. The app does not contain every social element included on the web – which is understandable – therefore it must concentrate on the smallest user interactions to optimize user experience. By redesigning certain aspects of this app, I hope to accentuate the importance of a good UI and bring attention to small user tasks. &lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 08 Jul 2014 08:00:00 -0400</pubDate>
-        <link>http://eduardomarin.github.io/df</link>
-        <guid isPermaLink="true">http://eduardomarin.github.io/df</guid>
+        <category>jekyll</category>
         
-        
-      </item>
-    
-      <item>
-        <title>Wireshark - Network protocol analyzer</title>
-        <description>&lt;p&gt;Wireshark is a great, free open-source packet analyzer used for network troubleshooting, analysis, software and communications protocol development, and education. I first came across Wireshark in college while taking a networking course. In the beginning, while I was still learning the ins and outs of the tool, I found myself stuck performing the same tasks each time. I thought there had to be more to it; its intended use, I thought, had to be more than just scanning and randomly following TCP streams. That’s when I started reading its documentation and found how the GUI came to be and why Wireshark was not simply another command line packet sniffer like tcpdump. I understood the main focus wasn’t its user interface, but the powerful functionality packed into it. However if the tool was meant for education, some things needed to change to enable the user with easier, more accessible tools.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Ready to Scan&lt;/h2&gt;
-
-&lt;p&gt;One of the first things I felt needed to be modified was Wireshark’s dependency on its documentation to perform simple tasks. A three-column design, for instance, created a somewhat cluttered/confusing interface that obscured the starting objective – performing a scan. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/wireshark-scan.png&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/wireshark-scan.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I opted for a dropdown instead that automatically selects the most active interface as default, and a call-to-action button that proceeds with the scan. Nonetheless, a savvier user could perform more detailed scans by simply selecting the advanced scan option.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Visual Organization (Less is More)&lt;/h2&gt;
-&lt;p&gt;Organizing the interface to follow a more logical structure seemed to be the top priority. After all, having 4 sections in one screen was confusing and impractical as one could not concentrate on either one of them. I focused on the packet capture and got rid of 2 sections. I also incorporated a left panel with some useful tools -- extracted from the top -- used to find and filter packets. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/wireshark-visual.png&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/wireshark-visual.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Intelligent Search and Filtering&lt;/h2&gt;
-&lt;p&gt;I believe search is a way to discover the capabilities of an app. Creating an experience around it is, then, just as important as redesigning the entire front-end composition. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/Wireshark-search.png&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/Wireshark-search.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The search field was used as way to filter packets through prebuilt expressions (i.e. “atn-cm contains 12” or simply “dns”). I opted for a friendlier approach to search, which could be accessed from either the left panel or from the search box. If for example I wanted to filter out all the  ‘HTTP’ and ‘DNS’ packets, I’d simply go on the left panel click on the “add sign” and proceed to adding protocol filters which could later be easily removed. &lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Packet Isolation&lt;/h2&gt;
-
-&lt;p&gt;As mentioned before, the old interface was initially composed of 4 sections; the two bottom ones expressed a selected packet’s content. When I removed these two sections I visualized a more targeted packet analysis, which for now comes in the form of tabs. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/wireshark-inspection.png&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/wireshark-inspection.png&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;Wireshark is a personal project I’m still working on. While it may not be feasible to make all of these changes, I think it’s worth shedding light on possible updates that might make this tool more accessible. &lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 01 Jul 2014 08:00:00 -0400</pubDate>
-        <link>http://eduardomarin.github.io/wireshark</link>
-        <guid isPermaLink="true">http://eduardomarin.github.io/wireshark</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Wynn Landing Page</title>
-        <description>&lt;p&gt;Wynn is a resort and casino located in Las Vegas. A few months ago, while browsing through some famous casinos’ websites, I stumbled upon the Wynn’s home page, which abruptly caught my attention for the funky music playing in the background. While I navigated the site I began to take notice of the many similarities across all major casinos’ websites. Mainly in that most of them were trying to accentuate this room availability search tool by keeping this rather unappealing tool in all pages. I thought there might be a better way tool omnipresent, so I started working on sketches and ended up coming up with something much simpler. &lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Unclutter the Room Availability Tool&lt;/h2&gt;
-
-&lt;p&gt;Instead of keeping a hideous tool with all of its fields in all pages, I decided to make a button that serves the same purpose but effectively reduces the space consumed by the latter.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/wynn1.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/wynn1.jpg&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;To my surprise Wynn did update the tool this year, by make it a side accordion. I included images of their old websites – one is from 2014 the other from 2015 &lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Focus on what you are known for&lt;/h2&gt;
-&lt;p&gt;The Wynn has incredible things to offer, ranging from nightclubs to shows to spas. The difference, I thought, must be made through simplicity in the UI highlighting the great things the Wynn has to offer. It’s not enough to see a picture of the casino and some music in the background. Enhancing what the user wants to see creates a greater experience.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/wynn-3.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/wynn-3.jpg&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/img/wynn-2.jpg&quot; data-lighter=&quot;&quot;&gt;
-  &lt;img src=&quot;/img/wynn-2.jpg&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;My take on redesigning the Wynn’s homepage was simple. I merely wanted to reduce the space occupied by the room availability tool and concentrate on conveying the great things the Wynn has available.  &lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 10 Jun 2014 08:00:00 -0400</pubDate>
-        <link>http://eduardomarin.github.io/wynn</link>
-        <guid isPermaLink="true">http://eduardomarin.github.io/wynn</guid>
-        
+        <category>update</category>
         
       </item>
     
