@@ -17,7 +17,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 500;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
@@ -70,15 +70,15 @@ a {
   text-decoration: none;
   position: relative;
   display: inline-block;
-  padding-bottom: 2px; }
-  a:hover::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    border-top: 1px solid; }
+  padding-bottom: 2px;
+  border-bottom:1px solid;
 
+}
+
+
+.btn{
+
+}
 /**
  * Blockquotes
  */
@@ -354,190 +354,57 @@ code {
 
 .site-name__inner .btn {
   padding: 10px 30px;
-  border: 2px solid #fff;
+  border: 2px solid white;
   display: inline-block;
+  color:white;
   margin-top: 60px;
   border-radius: 3px;
   cursor: pointer;
-  text-decoration: line-through; }
+ }
+/*coming soon */
+.c-soon{
+  margin-left:10px;
+  color:#666;
+  font-weight:lighter;
+}
+/*portoflio content */
 
-/**
- * Syntax highlighting styles
- */
-.highlight .hll {
-  background-color: #49483e; }
+.portfolio-content{
+  height:800px;
+  font-family: 'Open Sans', sans-serif!important;
+  border-bottom:1px solid #ddd;
+  position:relative;
+}
 
-.highlight .c {
-  color: #7A7663; }
+.portfolio-content__explanation{
+  width:35%;
+  position:absolute;
+  margin:100px 0px 0px 100px;
+}
+.portfolio-content__explanation__header{
+  margin-bottom:20px;
 
-.highlight .err {
-  color: #960050;
-  background: red; }
+}
+.portfolio-content__explanation__header h3{
+  font-weight:bold;
+  margin-bottom:0px;
+  font-size:32px;
+  color:#333;
+  letter-spacing: 1px;
+}
+.portfolio-content__explanation__header__sub-title{
+  font-weight:700;
+  color:#4A4A4A;
+  font-size:18px;
+}
 
-.highlight .k {
-  color: #00a8c8; }
-
-.highlight .l {
-  color: #ae81ff; }
-
-.highlight .n {
-  color: #111111; }
-
-.highlight .o {
-  color: #f92672; }
-
-.highlight .p {
-  color: #111111; }
-
-.highlight .cm {
-  color: #75715e; }
-
-.highlight .cp {
-  color: #75715e; }
-
-.highlight .c1 {
-  color: #75715e; }
-
-.highlight .cs {
-  color: #75715e; }
-
-.highlight .ge {
-  font-style: italic; }
-
-.highlight .gs {
-  font-weight: bold; }
-
-.highlight .kc {
-  color: #00a8c8; }
-
-.highlight .kd {
-  color: #00a8c8; }
-
-.highlight .kn {
-  color: #f92672; }
-
-.highlight .kp {
-  color: #00a8c8; }
-
-.highlight .kr {
-  color: #00a8c8; }
-
-.highlight .kt {
-  color: #00a8c8; }
-
-.highlight .ld {
-  color: #d88200; }
-
-.highlight .m {
-  color: #ae81ff; }
-
-.highlight .s {
-  color: #d88200; }
-
-.highlight .na {
-  color: #75af00; }
-
-.highlight .nb {
-  color: #111111; }
-
-.highlight .nc {
-  color: #75af00; }
-
-.highlight .no {
-  color: #00a8c8; }
-
-.highlight .nd {
-  color: #75af00; }
-
-.highlight .ni {
-  color: #111111; }
-
-.highlight .ne {
-  color: #75af00; }
-
-.highlight .nf {
-  color: #75af00; }
-
-.highlight .nl {
-  color: #111111; }
-
-.highlight .nn {
-  color: #111111; }
-
-.highlight .nx {
-  color: #111111; }
-
-.highlight .py {
-  color: #111111; }
-
-.highlight .nt {
-  color: #f92672; }
-
-.highlight .nv {
-  color: #111111; }
-
-.highlight .ow {
-  color: #f92672; }
-
-.highlight .w {
-  color: #111111; }
-
-.highlight .mf {
-  color: #ae81ff; }
-
-.highlight .mh {
-  color: #ae81ff; }
-
-.highlight .mi {
-  color: #ae81ff; }
-
-.highlight .mo {
-  color: #ae81ff; }
-
-.highlight .sb {
-  color: #d88200; }
-
-.highlight .sc {
-  color: #d88200; }
-
-.highlight .sd {
-  color: #d88200; }
-
-.highlight .s2 {
-  color: #d88200; }
-
-.highlight .se {
-  color: #8045FF; }
-
-.highlight .sh {
-  color: #d88200; }
-
-.highlight .si {
-  color: #d88200; }
-
-.highlight .sx {
-  color: #d88200; }
-
-.highlight .sr {
-  color: #d88200; }
-
-.highlight .s1 {
-  color: #d88200; }
-
-.highlight .ss {
-  color: #d88200; }
-
-.highlight .bp {
-  color: #111111; }
-
-.highlight .vc {
-  color: #111111; }
-
-.highlight .vg {
-  color: #111111; }
-
-.highlight .vi {
-  color: #111111; }
-
-.highlight .il {
-  color: #ae81ff; }
+.portfolio-content__explanation__body{
+  font-weight:500;
+  color:#4A4A4A;
+  line-height: 27px;
+}
+.portfolio-content__visuals{
+  width:40%;
+  float:right;
+  margin:50px 100px 0px 0px;
+}
