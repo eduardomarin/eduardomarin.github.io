@@ -1,0 +1,181 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Seat Maps</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+
+  <header class="mainHeader">
+    <div class="mainHeader__container" style="max-width:1000px; box-shadow:none">
+      <div class="mainHeader__rightSection">
+        <div class="mainHeader__rightSection__profilePic">
+          <a href="index.html"><img src="img/otter_bear-final.png" alt="bearlogo" /></a>
+        </div>
+        <div class="mainHeader__rightSection__intro">
+          <ul>
+            <li>Hi, I'm Eduardo</li>
+            <li>A product designer with coding tendencies</li>
+            <li>Currently working at Priceline</li>
+          </ul>
+        </div>
+      </div>
+      <div style="clear:both"></div>
+      <div class="mainHeader__leftSection">
+        <a class="aboutBtn" href="about.html">about</a>
+      </div>
+      <div style="clear:both"></div>
+    </div>
+  </header>
+
+
+  <div class="project__mainTitle">
+    <h1 class="animated bounce">
+        Seat Maps for Flights
+    </h1>
+  </div>
+
+
+  <div class="project__body">
+    <div class="project_body_text">
+      The task assigned to us was clear: revamp seat maps, sell more premium seats and incorporate an architecture that lends itself to further additions. Here, we were presented with the chance to rebuild a product better than anything else in the travel industry.
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="project__body">
+    <div class="project__body__title">
+      Initial Meetings
+    </div>
+    <div class="project_body_text">
+    Our initial conversations revealed our concerns and current constraints, our advantages (over our competitors) and ideas for eventual success. During these meetings we came to understand and consequently align on the core value of the product. We were going to spend several months integrating, scaling and gradually enhancing this experience, therefore creating a tangible vision and highlighting its significance was of utmost importance.
+    </div>
+  </div>
+  <figure>
+    <img src="img/seatmaps/comm-0.png" alt="" />
+    <figcaption>Initial notes and sketches </figcaption>
+  </figure>
+
+  <div class="project__body">
+    <div class="project__body__title">
+      Distilling our Direction
+    </div>
+    <div class="project_body_text">
+      After myriads of casual and formal meetings with both the product and business teams, we had compiled a list of handy notes. Our developers knew enough to begin working on the app architecture, and it was up to us, PM and designer, to begin distilling the design direction.
+      <br>
+      <br> With lots of notes and scribbles explaining our experience, we concluded on the two main user flows constituting the overall experience. The first, seat selection, was obvious, we needed a seat maps UI after all. The second dealt with figuring out where Seat Maps was going to exist within the checkout ecosystem.  We prioritized the Seat Maps UI and left the wiring up as conversation we’d gradually have with the Checkout Team.
+
+    </div>
+  </div>
+  <figure>
+    <img style="max-width:90%" src="img/seatmaps/comm-1.png" alt="" />
+    <figcaption>Figuring our launch point.</figcaption>
+  </figure>
+  <figure>
+    <img style="max-width:50%" src="img/seatmaps/comm-2.png" alt="" />
+    <figcaption>Here's a hacked version of seat maps. I hadn't done any wireframes yet but I had an idea of what I wanted so I simply hacked the vision together.</figcaption>
+  </figure>
+  <div class="project__body">
+    <div class="project_body_text">
+    At the time we started conceptualizing seat maps, the Checkout app was fairly new and was still being tested. Having this interface in flux posed a challenge, as we couldn’t propose any large architectural change to fit seat maps into the flow. We opted for a simple launch from a link on the first form in the passenger screen.<br><br>
+    </div>
+  </div>
+
+  <div class="project__body">
+    <div class="project__body__title">
+      Going Responsive
+    </div>
+    <div class="project_body_text">
+    After some back and forth with our team, we opted for going responsive. The biggest challenge in creating responsive seat representations is standardizing seat sizes and paddings at different widths for different configurations.
+      <br>
+      <br>For instance, a 40-pixel by 40-pixel seat works perfectly on an iPhone 4, only if the representation is less than or equal to a 3-3 (three rows by three rows).  Adding one more row to the representation (i.e. 2-3-2) would require us to drop the seat size to 30-pixels and adjust the padding accordingly.
+    </div>
+  </div>
+  <figure>
+    <img style="max-width:70%" src="img/seatmaps/comm-3.png" alt="" />
+    <figcaption>A lot of the work was figuring out how different configurations would fit on a phone, so here I was just brainstorming ideas.</figcaption>
+  </figure>
+  <div class="project__body">
+    <div class="project__body__title">
+      Visual Design
+    </div>
+    <div class="project_body_text">
+  Random symbols, incongruent colors, and static content characterize most seat maps interfaces at the moment. My objective in deriving a visual language for our user interface was to keep things simple and self-explanatory. Where other interfaces use a lot of static text and strong colors, I focus on keeping relevant information in notorious places and let the colors speak for themselves.
+
+    </div>
+  </div>
+  <figure>
+    <img style="max-width:50%" src="img/seatmaps/comm-4.png" alt="" />
+    <figcaption>People don’t want to spend that much time selecting seats, making this therefore as frictionless as possible is a must. </figcaption>
+  </figure>
+  <figure>
+    <img style="max-width:50%" src="img/seatmaps/comm-5.png" alt="" />
+    <figcaption> </figcaption>
+  </figure>
+  <div class="project__body">
+    <div class="project__body__title">
+      Static vs. Reactive
+    </div>
+    <div class="project_body_text">
+      In deciding to keep the interface clean, I opted for having an interface that responds with suggestive forms of validation: popups, toast messages and modals. We are not accustomed to this at Priceline, and as far as I know, neither are our competitors.
+    </div>
+  </div>
+  <figure>
+    <video autoplay="autoplay" loop="loop" height="600">
+        <source src="img/seatmaps/reactive_vid.mp4" type="video/mp4" />
+    <figcaption>We have developed solutions for different micro interactions to address the subtleties we believe are better addressed with animation.</figcaption>
+  </figure>
+  <div class="project__body">
+    <div class="project__body__title">
+      Conclusion
+    </div>
+    <div class="project_body_text">
+    We have created a competitive seat maps experience with potential to grow even more. Currently, we are brainstorming the introduction for paid seats (as seen in the prototype above). The challenge in offering paid seats, as an OTA, is accommodating for various airlines with one consistent paradigm.
+<br><br>
+      Thank you for reading ☺
+
+    </div>
+  </div>
+
+  <div class="next-prev-project">
+    <div class="prev-project">
+      <div class="project__indicator">Previous Project</div>
+      <a class="null-link" href="">Empty</a>
+    </div>
+    <div class="next-project">
+      <div class="project__indicator">Next Project</div>
+      <a class="np__btn" href="petcare.html">PetConnect</a>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <footer>
+    Made with &hearts; by me
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+  </script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/pagetransitions.js"></script>
+
+
+</body>
+
+</html>
