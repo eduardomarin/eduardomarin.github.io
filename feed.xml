@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eduardo Marin&#39;s Portfolio</title>
+    <description>I’m a product designer with a focus on product strategy and research. With a little over 4 years of experience</description>
+    <link>http://eduardomarin.github.io//</link>
+    <atom:link href="http://eduardomarin.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 16 Nov 2016 14:46:34 -0500</pubDate>
+    <lastBuildDate>Wed, 16 Nov 2016 14:46:34 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Flight Seat Selection</title>
+        <description>&lt;p&gt;Seat selection / Seat maps has been the most difficult, most rewarding experience I have had since I started my career. As the sole designer, I took seat maps through 3 major releases, and accomplished goals that not only benefited the growth of the business but also demonstrated what we can achieve on the web by pushing harder and working together.  &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Initial Meetings&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+Our initial meetings aligned the team on one vision and strategy for launch. We drafted main user flows and talked about feasibility from different perspectives.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/seatmaps/seats-0.png&quot; alt=&quot;seat maps scope&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Competitive Analysis&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+After coming together and distilling the scope and requirements of the project, I began analyzing other airlines and pulling data from our then desktop experience to better understand patterns and common interactions.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/seatmaps/seats-1.png&quot; alt=&quot;priceline competitive analysis&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Sketches&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+At this point, most of the general, low-fi wireframes were drafts on my notebook. The main challenge in making this experience responsive, was figuring out exactly what components could and couldn’t fit on a phone.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/seatmaps/seats-2.png&quot; alt=&quot;priceline competitive analysis&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Building out the experience&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+I focused on keeping the interface as clean as possible by prioritizing pieces of information, deriving common patterns that would work across all widths and making the visual language easy and self-explanatory.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/seatmaps/seats-3.png&quot; alt=&quot;priceline competitive analysis&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/seatmaps/seats-4.png&quot; alt=&quot;priceline competitive analysis&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Seat Maps - V1&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+It took approximately a month and half to launch this version of seat maps.  Our goals and expectations were to make this an efficient, more visually appealing experience, and I believe we accomplished that.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/seatmaps/seats-5.png&quot; alt=&quot;priceline competitive analysis&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/seatmaps/seats-6.png&quot; alt=&quot;priceline competitive analysis&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Seat Maps - V2 (Premium Seats)&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+Seat Maps V2 was more so a technical effort than a design challenge. Previous to this, we didn’t have an infrastructure set up to purchase “premium seats” in checkout. We did however have the ability to process a purchase after booking. In an effort to prove our users’ intent for purchasing premium seats, we ran an A/B test introducing the idea of “locked premium seats”.&lt;/p&gt;
+
+&lt;p&gt;The test was positive and we for once sold more than 1000 premium seats in a week.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/seatmaps/paid-seats-0.png&quot; alt=&quot;priceline competitive analysis&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I worked concurrently on ways to introduce premium seats in checkout. We opted for going with the simplest approach as images and other elements would not be provided by the airlines on time for the projected launch.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/seatmaps/paid-seats-1.png&quot; alt=&quot;priceline competitive analysis&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/seatmaps/paid-seats-2.png&quot; alt=&quot;priceline competitive analysis&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Seat Maps - V3 (Multi Passenger Experience)&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+Up to now, we had an experience that could only handle one passenger at a time. In trying to make the experience more efficient, I began brainstorming ways to introduce multiple passengers in one concrete flow.&lt;/p&gt;
+
+&lt;p&gt;Most of the changes I made were based on data we had collected on user interaction and behavior.&lt;/p&gt;
+
+&lt;p&gt;The following are sketches I made thinking more “modularly” about the components on the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/seatmaps/multi-0.png&quot; alt=&quot;priceline competitive analysis&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/seatmaps/multi-1.png&quot; alt=&quot;priceline competitive analysis&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/seatmaps/multi-2.png&quot; alt=&quot;priceline competitive analysis&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/seatmaps/multi-3.png&quot; alt=&quot;priceline competitive analysis&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div style=&quot;display:block; max-width:699px; padding-left:9em&quot;&gt;
+
+&lt;video width=&quot;70%&quot; height=&quot;auto&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+  &lt;source src=&quot;/assets/img/seatmaps/seats.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Seat Maps - Progressive Visual Iterations&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+I’m working on improving the aesthetics of our current seat maps body and brainstorming ideas we could potentially test into.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/seatmaps/new-0.png&quot; alt=&quot;priceline competitive analysis&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/seatmaps/new-1.png&quot; alt=&quot;priceline competitive analysis&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 06 Sep 2016 00:00:00 -0400</pubDate>
+        <link>http://eduardomarin.github.io//2016/09/06/seatmaps/</link>
+        <guid isPermaLink="true">http://eduardomarin.github.io//2016/09/06/seatmaps/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Sign In/Up and Global Navigation</title>
+        <description>&lt;p&gt;This is one of the first large projects I chose to work on at Priceline. Consistency across paths, especially in these two areas (sign in/up and navigation), has been something Priceline struggles with and something that designers hardly pick up for its level of complexity. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Global Navigation - Information (links) Analysis&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+I began by analyzing the information in the global navigation, as it was already apparent that we needed to standardize the width of the container and enhance visuals overall. I surveyed all the different global navigation “flavors”, and then proceeded to outline what I thought was important and what was not.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/global/global-nav-0.png&quot; alt=&quot;global navigation priceline&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/global/global-nav-1.png&quot; alt=&quot;global navigation priceline&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Global Navigation - Wireframes &lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+The wireframes I made covered visual changes as well as ideas for potential features. In conceptualizing these ideas I was aware that most of these changes wouldn’t be implemented any time soon. Our team was only 2 people after all: a developer and myself.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/global/global-nav-2.png&quot; alt=&quot;global navigation priceline wireframes&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Global Navigation - Ideas &lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+Some ideas didn’t make it to polished wireframes, but served a good purpose in explaining these concepts to other teams.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/global/global-nav-4.png&quot; alt=&quot;global navigation priceline mockup&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Global Navigation - V1 &lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+The version we launched didn’t include any new features or information revamp; it was purely visual.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/global/global-nav-3.png&quot; alt=&quot;global navigation priceline mockup version one&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Sign in / Sign up &lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+I analyzed the current pages we used to sign in and sign up users and took notes on the components we needed to include. The idea in this revamp was to keep changes in functionality to a minimum and focus more on creating pages and modals that would be consistent and accessible from all parts of the site.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/global/sign-0.png&quot; alt=&quot;global navigation priceline mockup version one&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Sign in / Sign up - Iterations &lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+Much of the iterations happened more so in wireframes and prototypes. I contributed to the development of a lot of the components.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/global/sign-1.png&quot; alt=&quot;global navigation priceline mockup version one&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/global/sign-2.png&quot; alt=&quot;global navigation priceline mockup version one&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Sign in / Sign up - Validation Components &lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+We went from laying a list of error messages on top of the form fields (on the old experience) to signaling the errors individually on each form field.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/global/sign-3.png&quot; alt=&quot;global navigation priceline mockup version one&quot; /&gt;&lt;br /&gt;
+&lt;img style=&quot;width:40%&quot; src=&quot;/assets/img/global/password_strength.gif&quot; alt=&quot;global navigation priceline mockup version one&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Sign in / Sign up - Conclusion &lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Creating consistency is tough, especially when resources are low. In the short time I worked on this, I managed to push a more visually sound navigation and a sign/up modal. As a team, we managed to create enough momentum for the creation of a new team: The Global Components team.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/global/sign-4.png&quot; alt=&quot;global navigation priceline mockup version one&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 Sep 2016 00:00:00 -0400</pubDate>
+        <link>http://eduardomarin.github.io//2016/09/05/signinup/</link>
+        <guid isPermaLink="true">http://eduardomarin.github.io//2016/09/05/signinup/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Weeknder.com</title>
+        <description>&lt;p&gt;Weeknder, a responsive web application powered by Priceline, explores a new way to find and purchase discounted flights.  As the sole designer in this project, I conducted research, built the entire UI and introduced ideas that later would be used in another flagship product: Express Deals.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Experience Overview - Modular Design&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+The entire experience consisted of 3 main pages. The first page, the landing/home page, displayed flight deals from NYC to popular cities in the US. In designing this first page I opted for creating modules that would easily scale through different widths.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/weeknder/w-0.png&quot; alt=&quot;weeknder homepage&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Home Page&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+I had complete control and freedom to create and choose the content I wanted on this page. I decided to use images as I felt they’d give our users a better understanding of the preselected, available destinations. Furthermore, I believed images could create an “inspiring” feel to the app. However, the question now was: “what kind of images do we use?” We settled for skyline images, as we identified these were more recognizable and reinforcing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/weeknder/w-1.png&quot; alt=&quot;weeknder homepage&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/weeknder/w-2.png&quot; alt=&quot;weeknder homepage&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Details Page&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+The challenge in creating this page was figuring out the information structure and how much of a priority each component should have.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/weeknder/w-3.png&quot; alt=&quot;weeknder homepage&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/weeknder/w-4.png&quot; alt=&quot;weeknder homepage&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Weeknder - V2 (More Departure Cities)&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+Introducing more departure cities meant adding another page to the flow. My inspiration at this point was Airbnb. I built therefore a welcoming homepage with an easily recognizable selector.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/weeknder/w-5.png&quot; alt=&quot;weeknder homepage&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/weeknder/w-6.png&quot; alt=&quot;weeknder homepage&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Weeknder - V3 &lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+After conducting a usability test, we made major changes to all the pages in the flow. Research would shape later versions of the product and make things much simpler. On version 3 of the app, I focused primarily on simplifying the UI by refining the pieces of information at each step of the process.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/weeknder/w-7.png&quot; alt=&quot;weeknder homepage&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;A problem we had was that users would focus too much on the hero and less on the destinations. I needed to deemphasize this by taking the picture away and making it a simpler component.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/weeknder/w-8.png&quot; alt=&quot;weeknder homepage&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I had introduced the idea for “bucketing time windows” at Express Deals (fifth project on this portfolio) and the idea was now to test it on Weeknder and see how it did. The idea was successful as proven by user interaction and conversion. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The following is a future version of the app, in which users can toggle time windows and “customize” therefore a flight deal.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/weeknder/w-9.png&quot; alt=&quot;weeknder homepage&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 04 Sep 2016 00:00:00 -0400</pubDate>
+        <link>http://eduardomarin.github.io//2016/09/04/weeknder/</link>
+        <guid isPermaLink="true">http://eduardomarin.github.io//2016/09/04/weeknder/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>littleBits</title>
+        <description>&lt;p&gt;I joined littlebits for a short while as the third user experience designer. I focused mainly on revamping the Shop section and all the pages that constitute it. In my time there I got to create interchangeable, modular sections/patterns and contributed to a new, more concrete way of thinking about page structure.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Scoping out the Project&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+The task was rather broad: redesign all product pages in the Shop section. I had a style guide to follow, but I could also brainstorm and ideate new elements that could later be used across other pages.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/littlebits/lil-0.png&quot; alt=&quot;littlebits shop&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/littlebits/lil-1.png&quot; alt=&quot;littlebits shop&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Shop Page Components - Designing Modules&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+After identifying the core pieces used across product pages, I proceeded to create modular UI components that could be used interchangeably across different products: kits, bits, accessories and educators.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/littlebits/lil-2.png&quot; alt=&quot;littlebits shop&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/littlebits/lil-3.png&quot; alt=&quot;littlebits shop&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Shop Page - Home Page Layout&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+Once I had designed plenty of sections and iterated upon them, I began thinking about ways we could structure pages. I worked closely with the other designers and a few of the devs to figure out “how much we could change” in the following version.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/littlebits/lil-4.png&quot; alt=&quot;littlebits shop&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/littlebits/lil-5.png&quot; alt=&quot;littlebits shop&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Shop Page - Ideas&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+As I was designing feasible, tangible ideas to be produced in the next following weeks, I began thinking about ways we could segment products in different ways. The following are mockups I created to pitch possible future versions of the site.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/littlebits/lil-6.png&quot; alt=&quot;littlebits shop&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/littlebits/lil-7.png&quot; alt=&quot;littlebits shop&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/littlebits/lil-8.png&quot; alt=&quot;littlebits shop&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Shop Page - Kits &lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+The following format is what we went for. Most of the product pages followed the same modular concept.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/littlebits/lil-9.png&quot; alt=&quot;littlebits shop&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;A lot of the “future” changes I proposed are now live here: &lt;a href=&quot;http://littlebits.cc/bits&quot;&gt;littlebits.cc/bits&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 03 Sep 2016 00:00:00 -0400</pubDate>
+        <link>http://eduardomarin.github.io//2016/09/03/littlebits/</link>
+        <guid isPermaLink="true">http://eduardomarin.github.io//2016/09/03/littlebits/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Express Deals - Flights</title>
+        <description>&lt;p&gt;Express Deals are discounted flights ranging from 10 to 50+% savings. These flights are only available last minute and the catch is that we hide (per the airline’s request) certain flight information at the moment of booking. All information details are revealed once the purchase has been processed after booking the flight.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/exd/exd-0.png&quot; alt=&quot;express deal&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Intro to Express Deals &amp;amp; Approach&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+Express Deals was a fast project. There were many technical constraints and not many resources. However the idea for it was great. The approach was simple: lay the cheapest express deal on top of the flights results page. My job then was to figure out how to design this express deal flight with less information than normal.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/exd/exd-1.png&quot; alt=&quot;express deals wireframes&quot; /&gt;
+&lt;img src=&quot;/assets/img/exd/exd-2.png&quot; alt=&quot;express deals wireframes&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Details Page - Recycling Old Page&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+We reused a lot of old code and existing pages in this launch.  As a designer, I also compromised by recycling the old details page and making it so that it would work for us. My approach was to simply introduce some text explaining what express deals are.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/exd/exd-3.png&quot; alt=&quot;express deals wireframes&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Express Deals - Mobile&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+After the desktop launch we had peaked “opaque” flights sells like never before. Everybody was happy, and flights had established a new way to sell flight deals. With desktop done, I approached mobile (as not everything was responsive then yet) with the same “integrated” approach.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/exd/mobile-0.png&quot; alt=&quot;express deals wireframes&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/exd/mobile-1.png&quot; alt=&quot;express deals wireframes&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Express Deals - Better time windows (V2)&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+In a previous usability test, we found that wide departure time windows (6am- 10pm) were an issue.  With the momentum we had amassed and the help of the business, we managed to convince airlines to shorten these windows to 8 hours. Now we could bucket time windows into categories: morning, afternoon and night. This idea was first tested on Weeknder and later made it to Express Deals, making a great success.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/exd/exd-6.png&quot; alt=&quot;express deals wireframes&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.nytimes.com/2016/05/29/travel/cheap-flights-budget-travel.html?_r=0&quot;&gt;Express Deals on the New York Times&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Sep 2016 00:00:00 -0400</pubDate>
+        <link>http://eduardomarin.github.io//2016/09/02/exd/</link>
+        <guid isPermaLink="true">http://eduardomarin.github.io//2016/09/02/exd/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Looken</title>
+        <description>&lt;p&gt;Looken was the smallest startup I’ve ever joined. The team was 6 people, most of them engineers including the CEO; I was the only designer and front-end developer.  At the time we were trying to build a platform that accrued deals (like Groupon) from various providers. The main difference was in that we’d cover not only products but services and events as well&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;First Project - GPS Disabled&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+I worked on many projects in parallel to this one. It wasn’t too often that I made wireframes; I mostly drafted things, mocked them up and jumped straight to code. I didn’t need to spec things out after all. These are one of the few explorations I was tasked with for the input of a user’s location if GPS is somehow disabled.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/looken/location2.png&quot; alt=&quot;looken gps&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/looken/location1.png&quot; alt=&quot;looken gps&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Wireframe to Code&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+I sketched out things first, created wireframes and jumped straight to seeing how we could build this in Angular. Thinking simultaneously about performance and usability made things a bit more difficult but effective somehow.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/looken/deals1.png&quot; alt=&quot;looken gps&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/looken/deals4.jpg&quot; alt=&quot;looken gps&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/looken/deals3.jpg&quot; alt=&quot;looken gps&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Responsive Modules&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+A lot of the visual iterations happened in CSS. Making something responsive after all is much easier when the canvas you are working with is dynamic.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/looken/deals2.jpg&quot; alt=&quot;looken gps&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/looken/prototype-deal.jpg&quot; alt=&quot;looken gps&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+My experience at Looken was invaluable. Working with so few people, so many ideas and immense amounts of autonomy, so much passion just to “make it happen.” I left Looken knowing the kind of designer I wanted to become and what I wanted to impact.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/looken/looken-last.png&quot; alt=&quot;looken gps&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Sep 2016 00:00:00 -0400</pubDate>
+        <link>http://eduardomarin.github.io//2016/09/01/looken/</link>
+        <guid isPermaLink="true">http://eduardomarin.github.io//2016/09/01/looken/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
