@@ -447,10 +447,11 @@ p {
 a {
   color: #424242;
   transition: 0.3s;
-  text-decoration: none; }
+  font-weight: 300; }
 
 a:hover {
-  color: red; }
+  color: black;
+  font-weight: bold; }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
