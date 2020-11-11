@@ -20,18 +20,18 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="/images/favicon.png">
-	<title>Scopus – Eduardo Marin's Portfolio</title>
-	<meta name="description" content="This page is a demo that shows everything you can do inside portfolio and blog posts.">
+	<title>Scopus - Search and Discovery – Eduardo Marin's Portfolio</title>
+	<meta name="description" content="Search and discovery at Scopus.">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Scopus – Eduardo Marin's Portfolio">
-	<meta name="twitter:description" content="This page is a demo that shows everything you can do inside portfolio and blog posts.">
+	<meta name="twitter:title" content="Scopus - Search and Discovery – Eduardo Marin's Portfolio">
+	<meta name="twitter:description" content="Search and discovery at Scopus.">
 	<meta name="twitter:image:src" content="https://eduardo-marin.com/images/scopus/mobile-prototype.gif">
 
 	<!-- Facebook OpenGraph -->
-	<meta property="og:title" content="Scopus – Eduardo Marin's Portfolio" />
-	<meta property="og:description" content="This page is a demo that shows everything you can do inside portfolio and blog posts." />
+	<meta property="og:title" content="Scopus - Search and Discovery – Eduardo Marin's Portfolio" />
+	<meta property="og:description" content="Search and discovery at Scopus." />
 	<meta property="og:image" content="https://eduardo-marin.com/images/scopus/mobile-prototype.gif" />
 
 	
@@ -110,13 +110,13 @@
 	
 	<div class="page">
 
-		<div class="page__content" data-page-title="Scopus – Eduardo Marin's Portfolio">
+		<div class="page__content" data-page-title="Scopus - Search and Discovery – Eduardo Marin's Portfolio">
 
 			<section class="intro">
 
 	<div class="wrap">
 
-		<h1>Scopus</h1>
+		<h1>Scopus - Search and Discovery</h1>
 		<p>@Elsevier - 2017 to Now</p>
 
 	</div>
@@ -137,135 +137,211 @@
 
 <p>In 2017, I joined Elsevier.</p>
 
-<p>Initially I worked on several small improvements to Scopus, including: a redesign to the search history page, addition of new searchable content, and an <a href="https://chrome.google.com/webstore/detail/scopus-document-download/ojplelelocihfchkdaebocpankipadmp?hl=en-US">extension</a> to facilitate the download of documents. In time, due to the nature of my work, I moved to more search related projects, eventually ending up in a new team in charge of creating a new product offering from scratch.</p>
+<p>Initially I worked on several small improvements to Scopus, including: a redesign to the search history page, addition of new searchable content, and an <a href="https://chrome.google.com/webstore/detail/scopus-document-download/ojplelelocihfchkdaebocpankipadmp?hl=en-US">extension</a> to facilitate the download of documents. In time, due to the nature of my projects, I became involved with Search.</p>
+
+<p>In late 2018, I began my first big project; redesigning the Scopus homepage.</p>
 
 <p><br /></p>
 
-<h3 id="new-team">New team</h3>
+<h3 id="redesigning-the-homepage">Redesigning the homepage</h3>
 
-<p>Early in 2018, I began working with different products (Mendeley, Science Direct to name a few) within the organization to create a new product offering for researchers. This new product would be focused on a simple but crucial use case: <strong>keeping researchers up to date with the latest research</strong>.</p>
+<p>My approach to redesigning the homepage started with data we already had (analytics, previous user interviews, baseline studies, etc.).</p>
 
-<p><img src="/images/scopus/query-interpretation.png" alt="" /></p>
-
-<p>The idea for the product was simple; a recommendation feed with some search capabilities.</p>
-
-<p>I was in charge of integrating search. To do this I referred to the work I had been doing in Scopus and presented ideas to show how search could behave and what would be needed to make it “simpler”.</p>
-
-<p>Search was important to this app, but like any feed-based product, it wasn’t the main focus.</p>
-
-<p>In weeks, maybe months, we had discussed ideas like auto-suggest, natural language interpretation, keyword recommendations, etc. However with a contract on the line, we shelved some of these concepts and moved onto building a stripped down version of search. No fancy query interpretation, or boolean queries, just keywords that would be searched in artitle titles, abstracts and keywords related to the document.</p>
+<p>My goal as I embarked on this redesign was to provide a more straight-forward user experience for first-time, new users (often undergrad and PhD students).</p>
 
 <div class="gallery" data-columns="1">
-	<img src="/images/scopus/sutd-search.png" />
-	<img src="/images/scopus/sutd-search-2.png" />
+	<img src="/images/scopus/homepage/homepage-purple-explanation.png" />
+	<img src="/images/scopus/homepage/homepage-heatmap.png" />
+	<img src="/images/scopus/homepage/homepage-whiteboard.png" />
 </div>
 
-<p>Months later, the web app was released. And a month later the <a href="https://play.google.com/store/apps/details?id=com.elsevier.scopus_discovery&amp;hl=en&amp;gl=US">Scopus Discovery app</a> was introduced as a mobile companion.</p>
+<h3 id="text-fields">Text fields</h3>
+
+<p>Due to accessibility concerns, I aimed to first improve and therefore create a new standard for text input fields. For this part, I collaborated and involved many designers in the Scopus UX team, doing so we could all agree on a reusable component that would eventually be used across the site and potentially across products.</p>
+
+<div class="gallery" data-columns="1">
+	<img src="/images/scopus/homepage/homepage-input-fields.png" />
+</div>
 
 <p><br /></p>
 
-<h2 id="back-to-scopus">Back to Scopus</h2>
+<h3 id="document-search">Document search</h3>
 
-<p>Late 2018, early 2019, I came back to work on Scopus.</p>
+<p>My objective in redesigning document search (and all other entities for that matter) was to make it seamless to use the features we already had in place. One of the most important and often misunderstood features was the ability to add additional search fields.</p>
 
-<p>Re-orgs had shifted priorities around. Search was still a priority, however there was a bit of hesitance to embark on projects that might take too long to accomplish. Also, with the Scopus Discovery App live, Scopus was left re-thinking its focus.</p>
+<div class="gallery gallery-gif" data-columns="1">
+	<img style="width:25%" src="/images/scopus/homepage/sc-homeepage.gif" />
+</div>
+
+<p>Though not popular with the common researcher, Advanced Search is a tool used by power users, mainly in the corporate sector. Users of Advanced Search often copy and paste long and specific queries, hence the taller text field.</p>
+
+<div class="gallery" data-columns="1">
+	<img src="/images/scopus/homepage/homepage-advanced-search.png" />	
+	<img src="/images/scopus/homepage/homepage-advanced-search-2.png" />
+	<img src="/images/scopus/homepage/homepage-doc-search-desktop.png" />	
+</div>
+
+<p><br /></p>
+
+<h3 id="author-search">Author search</h3>
+
+<p>My priority in redesigning author search was reducing the verbosity introduced in the original designs. This meant first showing the most common searching method (name, last name) and providing a way to toggle to “search by ORCiD”.</p>
+
+<div class="gallery" data-columns="1">
+	<img src="/images/scopus/homepage/homepage-authors-mobile.png" />
+	<img src="/images/scopus/homepage/homepage-authors-desktop.png" />
+</div>
+
+<p><br /></p>
+
+<h3 id="institution-search">Institution search</h3>
+
+<p>Users here are slightly different, not many researchers are tinkering with institution search, it is mainly administrators and librarians who want to know about the performance of certain institutions (including their own). To enable this use case, and get users faster to a “details” page, we introduced auto-suggest.</p>
+
+<div class="gallery" data-columns="1">
+	<img src="/images/scopus/homepage/homepage-institution-mobile.png" />
+	<img src="/images/scopus/homepage/homepage-institution-desktop.png" />
+</div>
+
+<h2 id="homepage-launches">Homepage launches</h2>
+
+<p>In 2019, we launched a new and improved homepage with a focus on search experience. In the first month, we saw an increase in engagement on some features. We also saw more users arriving to the institution details page, this partly due to the new auto-suggest. Surveys were launched pre and post launch to capture satisfaction (within an NPS-like survey) and here we saw an improvement in the way users perceived Scopus.</p>
 
 <p><br /></p>
 
 <h2 id="document-results">Document results</h2>
 
-<p>In times of uncertainty, we began thinking about the redesign of components, that are part of the Search and Discovery journey. The components we identified were: document results (patents, research articles, conference papers, reviews, etc.), filters, and features that helped users stay up-to-date (alerts, saving searches, etc.).</p>
-
-<p>Redesigning document results required an understanding of all types of documents, in some cases in different languages and with varying information. Studies prior to this redesign, I learned we needed to improve the readability of our documents, so I left behind the tables and iterated upon a new format.</p>
+<p>After many years of gathering insights on documents, I finally had a chance to redesign them. The goal here was to make documents modular and reusable. In the original designs we were using tables to represent document data, however this format did not scale well outside the document results page. The scalability issue lead to the creation of different variations of documents across the site. This was a problem.</p>
 
 <div class="gallery" data-columns="1">
 	<img src="/images/scopus/scopus-results-final.png" />
 	<img src="/images/scopus/scopus-results-in-progress.png" />
-	<img src="/images/scopus/scopus-old-results.png" />
 </div>
+
+<p>Redesigning for documents was a highly collaborative effort. I led the discussions around the structure of a document and all the possible combinations depending on the type/kind of document. Other designers talked about the fonts we could use for the title, or the link treatments depending on the type of data (author, journal, call to action links, etc).</p>
+
+<div class="gallery" data-columns="1">
+	<img src="/images/scopus/results/results-mobile-main.png" />
+</div>
+
 <p><br /></p>
 
 <h2 id="filters">Filters</h2>
 
-<p>The first step in designing filters was deciding its importance in the page.</p>
+<p>From here on out, I worked on the themes I outlined earlier on (filters, results, retention-driving features, etc.) in the context of the document results page.</p>
 
-<p>Then determining its usage by category. After some user sessions, we understood the frequency and the context for filtering. With a better understanding of user behavior, I put together ideas to demonstrate the placement and prominence of filters in the document results page.</p>
-
-<div class="gallery" data-columns="2">
-	<img src="/images/scopus/filters-bottom-drawer.png" />
-	<img src="/images/scopus/filters-bubbles.png" />
-</div>
-
-<p>The next step in designing filters was figuring out how they were going to appear on screen. The proposals were either a drill-down (progressive disclosure) approach or a long page with tweaks to make it simpler.</p>
+<p>Based on previous insights (both qualitative and quantitative), we determined which filters were used the most ( Year, Document type, authors, etc.) and how often they were used per session. During ideation and brainstorming with other designers, we came up with concepts to test.</p>
 
 <div class="gallery" data-columns="1">
-	<img src="/images/scopus/scopus-filters-all-in-one.png" />
-	<img src="/images/scopus/scopus-filters-drill-down.png" />
+	<img src="/images/scopus/filters/filters-button-launch-mobile.png" />
+	<img src="/images/scopus/filters/filters-mobile-bubbles.png" />
 </div>
 
-<p>I created a few prototypes along the way to convey the experience to stakeholders. After several iterations, we came down to a longer page with certain additions (the slider for year ranges for example, which we saw as being a prevalent pattern on filtering documents). A graph behind the slider bridged the analysis and discovery use cases for documents in a subtle format.</p>
-
-<p>The original experience would require users to check all the boxes first, then click a button to “Limit/filter” the results. Using this interaction model, users couldn’t see the impact each filter was having on results. The biggest change, that needed to happen, was being able see results update automatically as the checkboxes were tapped. And though easy to explain and prototype, this change required a massive re-implementation of filters. These changes continue to happen, we are gradually pushing to get to this ideal place.</p>
-
-<div class="gallery gallery-gif" data-columns="2">
-	<img style="width:50%" src="/images/scopus/filters-video.gif" />
-	<img src="/images/scopus/filters-added-phone-screen.png" />
-</div>
-<p><br /></p>
-
-<h2 id="search">Search</h2>
-
-<p>85% of the searches that happen on Scopus are for documents.</p>
-
-<p>50% of users who arrive on documents results return to the homepage to modify their search.</p>
-
-<p>Users saw Scopus as a reliable source of literature, however not as a “search engine.” And this in part was because Scopus had been built with control in mind (boolean operators, special characters and reserved keywords) for power users but not for the common, new researcher.</p>
-
-<p>To make it easier for a common researcher, we needed to embrace a more forgiving and aiding search experience. One that recommended/suggested when needed, remembered what you had searched for before (to help you build a list of references) and validate immediately if a document is available in Scopus.</p>
+<p>Our aim in redesigning filters was to create a standard we could reuse across all results pages (authors, institutions, journals, patents, etc.). To do that we needed to establish a new, refreshed pattern for how filters display on the page.</p>
 
 <div class="gallery" data-columns="1">
-	<img src="/images/scopus/search-suggestions-main.png" />
-	<img src="/images/scopus/search-evolution.png" />
+	<img src="/images/scopus/filters/filter-visual-variations.png" />
 </div>
 
-<p>I experimented with motion to ease the transition from an idle/inactive search input to an active search state. My intention was also to understand how we would/could incorporate motion into our design system.</p>
-
-<div class="gallery gallery-gif" data-columns="2">
-	<img style="width:50%" src="/images/scopus/search-animations.gif" />
-	<img style="width: 50%" src="/images/scopus/search-animation-no-motion.gif" />
-</div>
-
-<p>I knew users were often changing their search, so we needed a more accessible way to get to the search box. A few iterations later, I came up with this idea which allowed users to focus on results when scrolling down but see both search and filters on the screen again as they started scrolling up.</p>
-
-<div class="gallery gallery-gif" style="background-color:#EEF3F6; padding:4rem" data-columns="1">
-	<img style="width: 30%" src="/images/scopus/search-disappears-with-filters.gif" />
-</div>
-
-<p><br /></p>
-
-<h2 id="giving-more-attention-to-retention-drivers">Giving more attention to retention drivers</h2>
-
-<p>Some filters and actions to help users stay up to date were often misunderstood. We knew how much these could do for users, so I created guides to provide bits and pieces of explanation on some key, retetion-driving features (set an alert, save search, open access, etc.)</p>
+<p>The next step in designing filters was figuring the interactions. The proposals were either a drill-down (progressive disclosure) approach or a long page with tweaks to make it simpler.</p>
 
 <div class="gallery" data-columns="1">
-	<img src="/images/scopus/demistifying-features-0.png" />
-	<img src="/images/scopus/demistifying-features-1.png" />
+	<img src="/images/scopus/filters/drill-down-mobile.png" />
 </div>
+
+<p>I opted for a longer page as this would enable a much more efficient way of filtering by different categories. I also hid the filters with low usage under a show/hide toggle to reduce cognitive load and allow users to focus on the filters that mattered.</p>
 
 <div class="gallery gallery-gif" data-columns="1">
-	<img style="width:30%" src="/images/scopus/demistifying-features-2.gif" />
+	<img style="width:25%" src="/images/scopus/filters/filters-long-screen.gif" />
 </div>
+
+<p>After testing the chosen approach for filters, I began iterating on more specific details (adding inputs for numbers to the year slider, transitions/animation, a way to clear the filters added, etc.).</p>
+
+<div class="gallery gallery-gif" data-columns="1">
+	<img style="width:25%" src="/images/scopus/filters/filters-final.gif" />
+</div>
+
+<p><br /></p>
+
+<h2 id="new-search">New Search</h2>
+
+<p>80%+ of the usage on Scopus happens between two pages, the homepage and document results. The reason was that users often need to modify their searches by adding keywords or subtracting some. This process is iterative and continuous. Knowing this, we knew we needed a way to search on the document results page, but the options were a bit limited.</p>
+
+<div class="gallery" data-columns="1">
+	<img src="/images/scopus/search/search-evolution.png" />
+</div>
+
+<p>In the past there had been attempts at making search better by: establishing a more comprehensible query language, redesigning the homepage, introducing new features, etc. All of these ideas were focused on retaining the long-time, power user.</p>
+
+<p>Throughout the years, the conversation changed to focus more on the common researcher. The common researcher had different expectations, they expected more query interpretation, more recommendations and streamlined ways to see their past searches.</p>
+
+<div class="gallery" data-columns="1">
+	<img src="/images/scopus/search/search-cases.png" />
+</div>
+
+<p>Besides creating a new search field (a variation from the input/text fields created earlier on), I explored scroll behavior and details on how search would remain on the screen.</p>
+
+<div class="gallery gallery-gif" data-columns="2">
+	<img style="width:50%" src="/images/scopus/search/search-sticks-to-the-top.gif" />
+	<img style="width:50%" src="/images/scopus/search/search-disappears-with-filters.gif" />
+</div>
+
+<p>At last, I came up with more explorations to figure out the transition between an idle and active search box.</p>
+
+<div class="gallery gallery-gif" style="background-color:#EEF3F6; padding:4rem" data-columns="1">
+	<img style="width: 25%" src="/images/scopus/search/search-animation-no-motion.gif" />
+</div>
+
+<p><br /></p>
+
+<h2 id="key-retention-drivers">Key retention drivers</h2>
+
+<p>Features used on the document results page include: alerts, saved searches and analysis of results (with graphs). We saw these features correlated with more retention and engagement. The only problem was that the overall usage was low. We needed a way to highlight these more without throwing off the balance of the page.</p>
+
+<div class="gallery" data-columns="1">
+	<img src="/images/scopus/nudge/retention-iteration.png" />
+</div>
+
+<p>The problem though wasn’t visibility as much as it was a lack of understanding. Icons on their own wouldn’t work and icons with labels were a bit too verbose on the page. I opted for a different solution which gave us a bit more room to explain the value of these features.</p>
+
+<div class="gallery gallery-gif" data-columns="1">
+	<img style="width:25%" src="/images/scopus/demistifying-features-2.gif" />
+</div>
+
+<p><br /></p>
+
+<h2 id="desktop---table-view">Desktop - table view</h2>
+
+<p>After testing a quick prototype with the new document results, we found there was still a need for a table format. It wasn’t as common, but some users (mainly editors and librarians) would compare meta data on the document results page. To achieve this in a more efficient way, I integrated a way to toggle between table and list results view.</p>
+
+<div class="gallery gallery-gif" data-columns="1">
+	<img style="width:70%" src="/images/scopus/desktop/table-switch.gif" />
+</div>
+
+<p><br /></p>
+
+<h2 id="previewing-authors-from-document-results">Previewing authors from document results</h2>
+
+<p>While looking for documents is the primary use case of the document results page, there are some instances where users look for seminal papers to find important, influential authors in a field. To preview this information without having to go to a profile page, I conceptualized the idea of “previewing” authors from the document results page.</p>
+
+<div class="gallery" data-columns="1">
+	<img src="/images/scopus/preview/mobile-fly-out-iterations.png" />
+</div>
+
+<p>For this part, I collaborated with the author profile designer to decide what information users prioritized when looking at an author. The answer varies depending on the intent, but for the most part it is a combination of seeing metrics and their latest published documents.</p>
+
+<div class="gallery gallery-gif" data-columns="2">
+	<img style="width:50%" src="/images/scopus/preview/mobile-fly-out.gif" />
+	<img style="width:100%" src="/images/scopus/preview/fly-out-desktop.gif" />
+</div>
+
 <p><br /></p>
 
 <h3 id="conclusion">Conclusion</h3>
 
-<p>Elsevier has many products in its portfolio, serving different needs in research. As designers, we aim to create components and interaction standards that we can re-use not only across teams but across products in the portfolio. I’ve been fortunate to have had the experience to work on Search experience (from redesigning the search boxes, to defining new patterns for filtering) and share these findings across different products. What I like about designing for search is the focus on abstraction. There’s little explanation or selling being done, it’s all about efficiency and clarity.</p>
+<p>In the last 3 years, I have led the discussion around Search but haven’t been the only one working on it. Many designers, in different teams and across products, have worked together with me in defining our vision and pushing the envelope in what we can do in collaboration. Many of the themes I discussed on this case study have been tested and integrated into our design system, some introduced/implemented across different pages on the product (e.g. author profile, homepage, document details, etc.)</p>
 
-<div class="gallery gallery-gif" data-columns="1">
-	<img style="width:30%" src="/images/scopus/final-shot-scopus-results.gif" />
-	<img src="/images/scopus/scopus-desktop-final-shot.png" />
-	<img src="/images/scopus/scopus-old-results.png" />
-</div>
+<p>The document results page is still in development. It is a massive undertaking after all. The final product is changing slightly and the end-result will be out by next year.</p>
 
 
 
